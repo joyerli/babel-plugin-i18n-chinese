@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-i18n-chinese",
-  "version": "0.5.4",
+  "version": "1.0.0",
   "description": "将js代码中中文转成多语言函数",
   "main": "lib/index.js",
   "scripts": {
