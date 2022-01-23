@@ -1,0 +1,2337 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`i8n md5转码 1`] = `
+"import _intl from \\"hzero-front/lib/utils/intl\\";
+
+/* eslint-disable */
+export default {
+  name: 'MainFinancePage',
+  componentName: 'MainFinancePage',
+  title1:
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  _intl.get(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  'oc.base.o4175eb').d(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  '我要融资'),
+  title2:
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  _intl.get(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  'oc.base.o4175eb').d(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  \\"我要融资\\"),
+  components: {},
+
+  data() {
+    return {
+      isCancel: false,
+      age: '',
+      name: 'name',
+      test1:
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      _intl.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.o4175eb').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '我要融资'),
+      test2:
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      _intl.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.o4175eb').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      \\"我要融资\\")
+    };
+  },
+
+  methods: {},
+
+  created() {
+    this.test1 =
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.o4175eb').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '我要融资');
+    this.test2 =
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.o4175eb').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    \\"我要融资\\");
+    this.test1 = JSON.stringify(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.o4175eb').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '我要融资'));
+    this.test2 = JSON.stringify(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.o4175eb').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    \\"我要融资\\"));
+    this.test2 = JSON.stringify(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.o7eca68').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '你好') +
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.o320730').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '我好'));
+    this.test2 = JSON.stringify(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.o7eca68').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '你好') + name +
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.o320730').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    \\"我好\\"));
+    this.test2 = JSON.stringify(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.o04a114').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    \\"hi我要融资\\"));
+  }
+
+};"
+`;
+
+exports[`i8n md5转码 2`] = `
+Array [
+  Array [
+    "oc.base.o4175eb",
+    "我要融资",
+  ],
+  Array [
+    "oc.base.o7eca68",
+    "你好",
+  ],
+  Array [
+    "oc.base.o320730",
+    "我好",
+  ],
+  Array [
+    "oc.base.o04a114",
+    "hi我要融资",
+  ],
+]
+`;
+
+exports[`i8n 函数组件 1`] = `
+"\\"use strict\\";
+
+var _interopRequireDefault = require(\\"babel-plugin-i18n-chinese/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault\\");
+
+Object.defineProperty(exports, \\"__esModule\\", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require(\\"react\\"));
+
+var _intl = _interopRequireDefault(require(\\"utils/intl\\"));
+
+var _jsxFileName = \\"/path/to/functionComponent.tsx\\";
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== \\"function\\") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== \\"object\\" && typeof obj !== \\"function\\") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== \\"default\\" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+const TestPage = () => {
+  console.log(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  _intl.default.get(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  'oc.base.重新渲染组件').d(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  '重新渲染组件'));
+  return /*#__PURE__*/React.createElement(\\"div\\", {
+    style: {
+      padding: 40
+    },
+    __self: void 0,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 5
+    }
+  },
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  _intl.default.get(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  'oc.base.表格头部').d(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  \\"表格头部\\"), /*#__PURE__*/React.createElement(Ou.Table, {
+    columns: [{
+      title: /*#__PURE__*/React.createElement(\\"span\\", {
+        __self: void 0,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16,
+          columnNumber: 20
+        }
+      },
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      _intl.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.动态表格列1').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      \\"动态表格列1\\"))
+    }, {
+      title: /*#__PURE__*/React.createElement(\\"span\\", {
+        desc: _intl.default.get(
+        /**___-@upman.babel-plugin-i18n-chinese-___**/
+        'oc.base.code1').d(
+        /**___-@upman.babel-plugin-i18n-chinese-___**/
+        '动态表格描述2'),
+        __self: void 0,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19,
+          columnNumber: 20
+        }
+      }, _intl.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.code2').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '动态表格列2'))
+    },
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.表格列3').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '表格列3'), {
+      title:
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      _intl.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.表格列4').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '表格列4')
+    }, {}],
+    __self: void 0,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 7
+    }
+  },
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  _intl.default.get(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  'oc.base.表格内容').d(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  \\"表格内容\\")),
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  _intl.default.get(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  'oc.base.表格底部').d(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  \\"表格底部\\"), /*#__PURE__*/React.createElement(\\"button\\", {
+    title: _intl.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.按钮标题').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '按钮标题'),
+    __self: void 0,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 7
+    }
+  },
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  _intl.default.get(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  'oc.base.按钮').d(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  \\"按钮\\")), /*#__PURE__*/React.createElement(\\"button\\", {
+    title: _intl.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.按钮标题').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '按钮标题'),
+    __self: void 0,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 7
+    }
+  },
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  _intl.default.get(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  'oc.base.动态').d(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  '动态') +
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  _intl.default.get(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  'oc.base.内容').d(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  '内容') +
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  _intl.default.get(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  'oc.base.按钮').d(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  '按钮')), /*#__PURE__*/React.createElement(\\"button\\", {
+    __self: void 0,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 7
+    }
+  }, _intl.default.get(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  'oc.base.code3').d(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  '手动多语言按钮')),
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  _intl.default.get(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  'oc.base.页脚').d(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  \\"页脚\\"));
+};
+
+TestPage.displayName = 'TestPage';
+var _default = TestPage;
+exports.default = _default;"
+`;
+
+exports[`i8n 函数组件 2`] = `
+Array [
+  Array [
+    "oc.base.重新渲染组件",
+    "重新渲染组件",
+  ],
+  Array [
+    "oc.base.动态表格列1",
+    "动态表格列1",
+  ],
+  Array [
+    "oc.base.code1",
+    "动态表格描述2",
+  ],
+  Array [
+    "oc.base.code2",
+    "动态表格列2",
+  ],
+  Array [
+    "oc.base.表格列3",
+    "表格列3",
+  ],
+  Array [
+    "oc.base.表格列4",
+    "表格列4",
+  ],
+  Array [
+    "oc.base.表格内容",
+    "表格内容",
+  ],
+  Array [
+    "oc.base.按钮标题",
+    "按钮标题",
+  ],
+  Array [
+    "oc.base.按钮",
+    "按钮",
+  ],
+  Array [
+    "oc.base.动态",
+    "动态",
+  ],
+  Array [
+    "oc.base.内容",
+    "内容",
+  ],
+  Array [
+    "oc.base.code3",
+    "手动多语言按钮",
+  ],
+  Array [
+    "oc.base.表格头部",
+    "表格头部",
+  ],
+  Array [
+    "oc.base.表格底部",
+    "表格底部",
+  ],
+  Array [
+    "oc.base.页脚",
+    "页脚",
+  ],
+]
+`;
+
+exports[`i8n 在tsx文件中的字符串 1`] = `
+"\\"use strict\\";
+
+var _interopRequireDefault = require(\\"babel-plugin-i18n-chinese/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault\\");
+
+Object.defineProperty(exports, \\"__esModule\\", {
+  value: true
+});
+exports.default = void 0;
+
+var _intl2 = _interopRequireDefault(require(\\"hzero-front/lib/utils/intl\\"));
+
+/* eslint-disable */
+var _default = {
+  name: 'MainFinancePage',
+  componentName: 'MainFinancePage',
+  title1:
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  _intl2.default.get(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  'oc.base.我要融资').d(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  '我要融资'),
+  title2:
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  _intl2.default.get(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  'oc.base.我要融资').d(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  \\"我要融资\\"),
+  components: {},
+
+  data() {
+    return {
+      isCancel: false,
+      age: '',
+      name: 'name',
+      test1:
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      _intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.我要融资').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '我要融资'),
+      test2:
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      _intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.我要融资').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      \\"我要融资\\")
+    };
+  },
+
+  methods: {},
+
+  created() {
+    this.test1 =
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl2.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.我要融资').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '我要融资');
+    this.test2 =
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl2.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.我要融资').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    \\"我要融资\\");
+    this.test1 = JSON.stringify(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl2.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.我要融资').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '我要融资'));
+    this.test2 = JSON.stringify(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl2.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.我要融资').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    \\"我要融资\\"));
+    this.test2 = JSON.stringify(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl2.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.你好').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '你好') +
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl2.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.我好').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '我好'));
+    this.test2 = JSON.stringify(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl2.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.你好').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '你好') + name +
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl2.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.我好').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    \\"我好\\"));
+    this.test2 = JSON.stringify(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl2.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.hi我要融资').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    \\"hi我要融资\\"));
+  }
+
+};
+exports.default = _default;"
+`;
+
+exports[`i8n 在tsx文件中的字符串 2`] = `
+Array [
+  Array [
+    "oc.base.我要融资",
+    "我要融资",
+  ],
+  Array [
+    "oc.base.你好",
+    "你好",
+  ],
+  Array [
+    "oc.base.我好",
+    "我好",
+  ],
+  Array [
+    "oc.base.hi我要融资",
+    "hi我要融资",
+  ],
+]
+`;
+
+exports[`i8n 字符串 1`] = `
+"import _intl from \\"hzero-front/lib/utils/intl\\";
+
+/* eslint-disable */
+export default {
+  name: 'MainFinancePage',
+  componentName: 'MainFinancePage',
+  title1:
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  _intl.get(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  'oc.base.我要融资').d(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  '我要融资'),
+  title2:
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  _intl.get(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  'oc.base.我要融资').d(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  \\"我要融资\\"),
+  components: {},
+
+  data() {
+    return {
+      isCancel: false,
+      age: '',
+      name: 'name',
+      test1:
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      _intl.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.我要融资').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '我要融资'),
+      test2:
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      _intl.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.我要融资').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      \\"我要融资\\")
+    };
+  },
+
+  methods: {},
+
+  created() {
+    this.test1 =
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.我要融资').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '我要融资');
+    this.test2 =
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.我要融资').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    \\"我要融资\\");
+    this.test1 = JSON.stringify(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.我要融资').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '我要融资'));
+    this.test2 = JSON.stringify(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.我要融资').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    \\"我要融资\\"));
+    this.test2 = JSON.stringify(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.你好').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '你好') +
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.我好').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '我好'));
+    this.test2 = JSON.stringify(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.你好').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '你好') + name +
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.我好').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    \\"我好\\"));
+    this.test2 = JSON.stringify(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.hi我要融资').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    \\"hi我要融资\\"));
+  }
+
+};"
+`;
+
+exports[`i8n 字符串 2`] = `
+Array [
+  Array [
+    "oc.base.我要融资",
+    "我要融资",
+  ],
+  Array [
+    "oc.base.你好",
+    "你好",
+  ],
+  Array [
+    "oc.base.我好",
+    "我好",
+  ],
+  Array [
+    "oc.base.hi我要融资",
+    "hi我要融资",
+  ],
+]
+`;
+
+exports[`i8n 忽略值 1`] = `
+"/* eslint-disable */
+import intl from 'utils/intl';
+export default {
+  name: 'MainFinancePage',
+  componentName: 'MainFinancePage',
+  title1: intl.ignore(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  '我要融资1'),
+  title2: intl.ignore(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  \`我要融资2\`),
+
+  data() {
+    return {
+      isCancel: false,
+      dataProps2: intl.ignore(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '我要融资3')
+    };
+  }
+
+};
+const i18n1 = intl.ignore(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'你好我好1');"
+`;
+
+exports[`i8n 忽略值 2`] = `null`;
+
+exports[`i8n 手动多语言函数 1`] = `
+"/* eslint-disable */
+import intl from 'utils/intl';
+export default {
+  name: 'MainFinancePage',
+  componentName: 'MainFinancePage',
+  title1: intl.get(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  \`base.test.code1\`).d(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  '我要融资1'),
+
+  data() {
+    return {
+      isCancel: false,
+      dataProps2: intl.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'base.test.code2').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '我要融资2')
+    };
+  }
+
+};
+const i18n1 = intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'base.test.code3').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+\`你好我好1\`);
+const i18n2 = intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'base.test.code4').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+\`你好\${name}我好2\`);
+const i18n3 = intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'base.test.code5').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+\`你好\${getWindow(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'才是真的好')}我好3\`);
+const i18n4 = intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'base.test.code6').d(getName(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+\`你好\${getWindow(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'才是真的好')}我好4\`));
+const i18n5Code = 'code5';
+const i18n5 = intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+\`base.test.\${i18n5Code}\`).d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+\`你好我好5\`);
+const i18n6 = intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+\\"base.test.code7\\").d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+\`你好我好6\`);
+const i18n7 = intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'base.test' +
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'code9').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+\`你好我好7\`);
+const i18n8 = intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'base.test' +
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'code' + 10).d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+\`你好我好8\`);
+const i18n9 = intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+\\"base.test.code11\\").d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'你好我好9');
+const i18n10 = intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'base.test.code12').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+\\"你好我好10\\");
+const notDefault = intl.get('base.test.code13');
+const i18n12 = intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'base.test.code14').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'你好我好11');
+const i18n13 = intl.set('base.test.code15').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'oc.base.你好我好12').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'你好我好12'));
+const i18n14 = intl.get('base.test.code16').t(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'oc.base.你好我好13').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'你好我好13'));
+
+const i18n11 = _t.get('base._t.code').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'oc.base.你好我好15').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'你好我好15'));
+
+const i18n17 = intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+\`base.test.code17\`).d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+\\"你好我好14\\");
+const i18n15 = intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'我是编码').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'你好我好16');
+
+const i18n16 = _t.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'oc.base.我是编码2').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'我是编码2')).d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'oc.base.你好我好17').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'你好我好17'));"
+`;
+
+exports[`i8n 手动多语言函数 2`] = `
+Array [
+  Array [
+    "base.test.code1",
+    "我要融资1",
+  ],
+  Array [
+    "base.test.code2",
+    "我要融资2",
+  ],
+  Array [
+    "base.test.code3",
+    "你好我好1",
+  ],
+  Array [
+    "base.test.code4",
+    "你好",
+  ],
+  Array [
+    "base.test.code5",
+    "你好",
+  ],
+  Array [
+    "base.test.code6",
+    "base.test.code6",
+  ],
+  Array [
+    "base.test.",
+    "你好我好5",
+  ],
+  Array [
+    "base.test.code7",
+    "你好我好6",
+  ],
+  Array [
+    "base.test.code11",
+    "你好我好9",
+  ],
+  Array [
+    "base.test.code12",
+    "你好我好10",
+  ],
+  Array [
+    "base.test.code14",
+    "你好我好11",
+  ],
+  Array [
+    "oc.base.你好我好12",
+    "你好我好12",
+  ],
+  Array [
+    "oc.base.你好我好13",
+    "你好我好13",
+  ],
+  Array [
+    "oc.base.你好我好15",
+    "你好我好15",
+  ],
+  Array [
+    "base.test.code17",
+    "你好我好14",
+  ],
+  Array [
+    "我是编码",
+    "你好我好16",
+  ],
+  Array [
+    "oc.base.我是编码2",
+    "我是编码2",
+  ],
+  Array [
+    "oc.base.你好我好17",
+    "你好我好17",
+  ],
+]
+`;
+
+exports[`i8n 模板字符串 1`] = `
+"\\"use strict\\";
+
+var _interopRequireDefault = require(\\"babel-plugin-i18n-chinese/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault\\");
+
+Object.defineProperty(exports, \\"__esModule\\", {
+  value: true
+});
+exports.default = void 0;
+
+var _intl2 = _interopRequireDefault(require(\\"hzero-front/lib/utils/intl\\"));
+
+var _user$address;
+
+/* eslint-disable */
+// @ts-ignore
+// @ts-nocheck
+const user = {
+  address: {
+    detail: ''
+  }
+};
+const name = 'joyer';
+var _default = {
+  title1:
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  \`\${_intl2.default.get(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  'oc.base.我要融资').d(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  '我要融资')}\`,
+  title2:
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  \`name\`,
+  title3:
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  \`\${_intl2.default.get(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  'oc.base.name我要融资').d(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  'name我要融资')}\`,
+  title4:
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  \`\${_intl2.default.get(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  'oc.base.我要用字').d(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  '我要用字')}\${user === null || user === void 0 ? void 0 : (_user$address = user.address) === null || _user$address === void 0 ? void 0 : _user$address.detail}\`,
+  components: {},
+
+  data() {
+    return {
+      test1:
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      \`\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.我').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '我')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.好呀').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '好呀')}\`,
+      test2:
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      \`\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.你').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '你')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.好呀').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '好呀')}\${name}\`,
+      test3:
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      \`\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.你').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '你')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.好呀').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '好呀')}\${name}\`,
+      test4:
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      \`\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.joyer你好joyer').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'joyer你好joyer')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.我好').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '我好')}\${age}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.才是joyer真的好').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '才是joyer真的好')}\`,
+      // error
+      test5:
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      \`joyer\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.好').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '好')}\${age}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.才是真的好').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '才是真的好')}\`,
+      // error
+      test6:
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      \`\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.你').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '你')}\${name}and\${age}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.才是真的好').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '才是真的好')}\`,
+      test7:
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      \`\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.你').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '你')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.他').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '他')}\${age}is good\`,
+      test8:
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      \`\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.你好').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '你好')}\${getWindow(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '才是真的好')}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.我好').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '我好')}\`,
+      test9:
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      \`\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.本').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '本')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.指').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '指')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.南').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '南')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.将').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '将')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.帮').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '帮')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.助').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '助')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.你').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '你')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.为').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '为')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.编').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '编')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.辑').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '辑')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.器').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '器')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.添').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '添')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.加').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '加')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.语').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '语')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.法').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '法')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.高').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '高')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.亮').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '亮')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.的').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '的')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.功').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '功')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.能').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '能')}\`,
+      test10:
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      \`\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.本').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '本')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.指').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '指')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.南').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '南')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.将').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '将')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.帮').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '帮')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.助').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '助')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.你').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '你')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.为').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '为')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.编').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '编')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.辑').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '辑')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.器').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '器')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.添').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '添')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.加').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '加')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.语').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '语')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.法').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '法')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.高').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '高')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.亮').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '亮')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.的').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '的')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.功').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '功')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.能').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '能')}\${name}\`,
+      test11:
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      \`\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.本').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '本')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.指').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '指')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.南').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '南')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.将').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '将')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.帮').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '帮')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.助').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '助')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.你').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '你')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.为').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '为')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.编').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '编')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.辑').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '辑')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.器').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '器')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.添').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '添')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.加').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '加')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.语').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '语')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.法').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '法')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.高').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '高')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.亮').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '亮')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.的').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '的')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.功').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '功')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.能').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '能')}\`,
+      test12:
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      \`joyer\${name}joyer\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.本').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '本')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.指').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '指')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.南').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '南')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.将').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '将')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.帮').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '帮')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.助').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '助')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.你').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '你')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.为').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '为')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.编').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '编')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.辑').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '辑')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.器').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '器')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.添').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '添')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.加').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '加')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.语').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '语')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.法').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '法')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.高').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '高')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.亮').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '亮')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.的').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '的')}\${name}\${_intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.功').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '功')}\${name}joyer\${name}joyer\${name}\`
+    };
+  },
+
+  methods: {},
+
+  created() {
+    this.test1 = JSON.stringify(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    \`\${_intl2.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.你好呀').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '你好呀')}\`);
+    this.test2 = JSON.stringify(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    \`\${_intl2.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.我').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '我')}\${name}\${_intl2.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.好呀').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '好呀')}\`);
+    this.test2 = JSON.stringify(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    \`\${
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    \\"你好\\"}\`);
+  },
+
+  content:
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  \`\${_intl2.default.get(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  'oc.base.相对方名称\\\\':').d(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  '相对方名称\\\\':')}\${record.partyName}\`,
+  content2:
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  \`\${_intl2.default.get(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  'oc.base.\\\\
+    哈哈哈,\\\\
+    哈哈哈，\\\\
+    恩恩恩哼\\\\
+  ').d(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  '\\\\
+    哈哈哈,\\\\
+    哈哈哈，\\\\
+    恩恩恩哼\\\\
+  ')}\`,
+  content3:
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  \`\${_intl2.default.get(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  'oc.base.我是\\"谁\\"?').d(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  '我是\\"谁\\"?')}\`
+};
+exports.default = _default;"
+`;
+
+exports[`i8n 模板字符串 2`] = `
+Array [
+  Array [
+    "oc.base.我要融资",
+    "我要融资",
+  ],
+  Array [
+    "oc.base.name我要融资",
+    "name我要融资",
+  ],
+  Array [
+    "oc.base.我要用字",
+    "我要用字",
+  ],
+  Array [
+    "oc.base.我",
+    "我",
+  ],
+  Array [
+    "oc.base.好呀",
+    "好呀",
+  ],
+  Array [
+    "oc.base.你",
+    "你",
+  ],
+  Array [
+    "oc.base.joyer你好joyer",
+    "joyer你好joyer",
+  ],
+  Array [
+    "oc.base.我好",
+    "我好",
+  ],
+  Array [
+    "oc.base.才是joyer真的好",
+    "才是joyer真的好",
+  ],
+  Array [
+    "oc.base.好",
+    "好",
+  ],
+  Array [
+    "oc.base.才是真的好",
+    "才是真的好",
+  ],
+  Array [
+    "oc.base.他",
+    "他",
+  ],
+  Array [
+    "oc.base.你好",
+    "你好",
+  ],
+  Array [
+    "oc.base.本",
+    "本",
+  ],
+  Array [
+    "oc.base.指",
+    "指",
+  ],
+  Array [
+    "oc.base.南",
+    "南",
+  ],
+  Array [
+    "oc.base.将",
+    "将",
+  ],
+  Array [
+    "oc.base.帮",
+    "帮",
+  ],
+  Array [
+    "oc.base.助",
+    "助",
+  ],
+  Array [
+    "oc.base.为",
+    "为",
+  ],
+  Array [
+    "oc.base.编",
+    "编",
+  ],
+  Array [
+    "oc.base.辑",
+    "辑",
+  ],
+  Array [
+    "oc.base.器",
+    "器",
+  ],
+  Array [
+    "oc.base.添",
+    "添",
+  ],
+  Array [
+    "oc.base.加",
+    "加",
+  ],
+  Array [
+    "oc.base.语",
+    "语",
+  ],
+  Array [
+    "oc.base.法",
+    "法",
+  ],
+  Array [
+    "oc.base.高",
+    "高",
+  ],
+  Array [
+    "oc.base.亮",
+    "亮",
+  ],
+  Array [
+    "oc.base.的",
+    "的",
+  ],
+  Array [
+    "oc.base.功",
+    "功",
+  ],
+  Array [
+    "oc.base.能",
+    "能",
+  ],
+  Array [
+    "oc.base.你好呀",
+    "你好呀",
+  ],
+  Array [
+    "oc.base.相对方名称':",
+    "相对方名称':",
+  ],
+  Array [
+    "oc.base.
+    哈哈哈,
+    哈哈哈，
+    恩恩恩哼
+  ",
+    "
+    哈哈哈,
+    哈哈哈，
+    恩恩恩哼
+  ",
+  ],
+  Array [
+    "oc.base.我是\\"谁\\"?",
+    "我是\\"谁\\"?",
+  ],
+]
+`;
+
+exports[`i8n 没有导入工具的手动多语言函数不当作多语言函数 1`] = `
+"import _intl from \\"hzero-front/lib/utils/intl\\";
+
+/* eslint-disable */
+export default {
+  name: 'MainFinancePage',
+  componentName: 'MainFinancePage',
+  title1: intl.get(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  \`base.test.code1\`).d(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  _intl.get(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  'oc.base.我要融资1').d(
+  /**___-@upman.babel-plugin-i18n-chinese-___**/
+  '我要融资1')),
+
+  data() {
+    return {
+      isCancel: false,
+      dataProps2: intl.get('base.test.code2').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      _intl.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.我要融资2').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '我要融资2'))
+    };
+  }
+
+};
+const i18n1 = intl.get('base.test.code3').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+\`\${_intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'oc.base.你好我好1').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'你好我好1')}\`);
+const i18n2 = intl.get('base.test.code4').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+\`\${_intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'oc.base.你好').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'你好')}\${name}\${_intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'oc.base.我好2').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'我好2')}\`);
+const i18n3 = intl.get('base.test.code5').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+\`\${_intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'oc.base.你好').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'你好')}\${getWindow(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'才是真的好')}\${_intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'oc.base.我好3').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'我好3')}\`);
+const i18n4 = intl.get('base.test.code6').d(getName(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+\`\${_intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'oc.base.你好').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'你好')}\${getWindow(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'才是真的好')}\${_intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'oc.base.我好4').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'我好4')}\`));
+const i18n5Code = 'code5';
+const i18n5 = intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+\`base.test.\${i18n5Code}\`).d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+\`\${_intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'oc.base.你好我好5').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'你好我好5')}\`);
+const i18n6 = intl.get(\\"base.test.code7\\").d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+\`\${_intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'oc.base.你好我好6').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'你好我好6')}\`);
+const i18n7 = intl.get('base.test' + 'code9').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+\`\${_intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'oc.base.你好我好7').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'你好我好7')}\`);
+const i18n8 = intl.get('base.test' + 'code' + 10).d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+\`\${_intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'oc.base.你好我好8').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'你好我好8')}\`);
+const i18n9 = intl.get(\\"base.test.code11\\").d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+_intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'oc.base.你好我好9').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'你好我好9'));
+const i18n10 = intl.get('base.test.code12').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+_intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'oc.base.你好我好10').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+\\"你好我好10\\"));
+const notDefault = intl.get('base.test.code13');
+const i18n12 = intl.get('base.test.code14').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+_intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'oc.base.你好我好11').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'你好我好11'));
+const i18n13 = intl.set('base.test.code15').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+_intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'oc.base.你好我好12').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'你好我好12'));
+const i18n14 = intl.get('base.test.code16').t(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+_intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'oc.base.你好我好13').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'你好我好13'));
+
+const i18n11 = _t.get('base._t.code').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+_intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'oc.base.你好我好15').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'你好我好15'));
+
+const i18n17 = intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+\`base.test.code17\`).d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+_intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'oc.base.你好我好14').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+\\"你好我好14\\"));
+const i18n15 = intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+_intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'oc.base.我是编码').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'我是编码')).d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+_intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'oc.base.你好我好16').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'你好我好16'));
+
+const i18n16 = _t.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+_intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'oc.base.我是编码2').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'我是编码2')).d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+_intl.get(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'oc.base.你好我好17').d(
+/**___-@upman.babel-plugin-i18n-chinese-___**/
+'你好我好17'));"
+`;
+
+exports[`i8n 没有导入工具的手动多语言函数不当作多语言函数 2`] = `
+Array [
+  Array [
+    "oc.base.我要融资1",
+    "我要融资1",
+  ],
+  Array [
+    "oc.base.我要融资2",
+    "我要融资2",
+  ],
+  Array [
+    "oc.base.你好我好1",
+    "你好我好1",
+  ],
+  Array [
+    "oc.base.你好",
+    "你好",
+  ],
+  Array [
+    "oc.base.我好2",
+    "我好2",
+  ],
+  Array [
+    "oc.base.我好3",
+    "我好3",
+  ],
+  Array [
+    "oc.base.我好4",
+    "我好4",
+  ],
+  Array [
+    "oc.base.你好我好5",
+    "你好我好5",
+  ],
+  Array [
+    "oc.base.你好我好6",
+    "你好我好6",
+  ],
+  Array [
+    "oc.base.你好我好7",
+    "你好我好7",
+  ],
+  Array [
+    "oc.base.你好我好8",
+    "你好我好8",
+  ],
+  Array [
+    "oc.base.你好我好9",
+    "你好我好9",
+  ],
+  Array [
+    "oc.base.你好我好10",
+    "你好我好10",
+  ],
+  Array [
+    "oc.base.你好我好11",
+    "你好我好11",
+  ],
+  Array [
+    "oc.base.你好我好12",
+    "你好我好12",
+  ],
+  Array [
+    "oc.base.你好我好13",
+    "你好我好13",
+  ],
+  Array [
+    "oc.base.你好我好15",
+    "你好我好15",
+  ],
+  Array [
+    "oc.base.你好我好14",
+    "你好我好14",
+  ],
+  Array [
+    "oc.base.我是编码",
+    "我是编码",
+  ],
+  Array [
+    "oc.base.你好我好16",
+    "你好我好16",
+  ],
+  Array [
+    "oc.base.我是编码2",
+    "我是编码2",
+  ],
+  Array [
+    "oc.base.你好我好17",
+    "你好我好17",
+  ],
+]
+`;
+
+exports[`i8n 空值 1`] = `
+"const a = '123';
+console.log(a);"
+`;
+
+exports[`i8n 空值 2`] = `null`;
+
+exports[`i8n 类组件 1`] = `
+"\\"use strict\\";
+
+var _interopRequireDefault = require(\\"babel-plugin-i18n-chinese/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault\\");
+
+var _intl2 = _interopRequireDefault(require(\\"hzero-front/lib/utils/intl\\"));
+
+var _react = _interopRequireDefault(require(\\"react\\"));
+
+var _jsxFileName = \\"/path/to/classComponent.tsx\\";
+
+class DetailDrawer extends _react.default.Component {
+  constructor(...args) {
+    super(...args);
+    this.name =
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl2.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.成员属性').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '成员属性');
+  }
+
+  handleCancel() {
+    const str =
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl2.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.方法内文本').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '方法内文本');
+
+    console.log(str);
+    console.log(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl2.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.方法内调用文本').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '方法内调用文本'));
+  }
+
+  render() {
+    const str =
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl2.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.渲染方法内文本').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '渲染方法内文本');
+
+    console.log(str);
+    console.log(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl2.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.渲染方法内文本').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '渲染方法内文本'));
+
+    const tip =
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl2.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.变量文本').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '变量文本');
+
+    return /*#__PURE__*/_react.default.createElement(Drawer, {
+      title: _intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.组件属性文本1').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      \\"组件属性文本1\\"),
+      desc:
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      _intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.组件动态属性问文本').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '组件动态属性问文本'),
+      tip: tip,
+      onClick: () => {
+        console.log(
+        /**___-@upman.babel-plugin-i18n-chinese-___**/
+        _intl2.default.get(
+        /**___-@upman.babel-plugin-i18n-chinese-___**/
+        'oc.base.点击了').d(
+        /**___-@upman.babel-plugin-i18n-chinese-___**/
+        '点击了'));
+      },
+      visible: tip ===
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      _intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.条件内容').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '条件内容'),
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22,
+        columnNumber: 7
+      }
+    }, /*#__PURE__*/_react.default.createElement(Form, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 31,
+        columnNumber: 9
+      }
+    }, /*#__PURE__*/_react.default.createElement(Row, {
+      style: {
+        flex: 'auto',
+        context:
+        /**___-@upman.babel-plugin-i18n-chinese-___**/
+        _intl2.default.get(
+        /**___-@upman.babel-plugin-i18n-chinese-___**/
+        'oc.base.占位内容').d(
+        /**___-@upman.babel-plugin-i18n-chinese-___**/
+        '占位内容')
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 32,
+        columnNumber: 11
+      }
+    }, /*#__PURE__*/_react.default.createElement(Col, {
+      span: 24,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33,
+        columnNumber: 13
+      }
+    }, /*#__PURE__*/_react.default.createElement(Form.Item, Object.assign({}, fromLayOut, {
+      label: _intl2.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.结算单类型').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      \\"结算单类型\\"),
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34,
+        columnNumber: 15
+      }
+    }))))), /*#__PURE__*/_react.default.createElement(Button, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 42,
+        columnNumber: 9
+      }
+    },
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl2.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.组件节点位文本').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    \\"组件节点位文本\\")), /*#__PURE__*/_react.default.createElement(Button, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 45,
+        columnNumber: 9
+      }
+    },
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl2.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.组件节点动态文本').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '组件节点动态文本')), /*#__PURE__*/_react.default.createElement(Button, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 48,
+        columnNumber: 9
+      }
+    },
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    \`\${_intl2.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.组件节点模板文本').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '组件节点模板文本')}\`));
+  }
+
+}"
+`;
+
+exports[`i8n 类组件 2`] = `
+Array [
+  Array [
+    "oc.base.成员属性",
+    "成员属性",
+  ],
+  Array [
+    "oc.base.方法内文本",
+    "方法内文本",
+  ],
+  Array [
+    "oc.base.方法内调用文本",
+    "方法内调用文本",
+  ],
+  Array [
+    "oc.base.渲染方法内文本",
+    "渲染方法内文本",
+  ],
+  Array [
+    "oc.base.变量文本",
+    "变量文本",
+  ],
+  Array [
+    "oc.base.组件属性文本1",
+    "组件属性文本1",
+  ],
+  Array [
+    "oc.base.组件动态属性问文本",
+    "组件动态属性问文本",
+  ],
+  Array [
+    "oc.base.点击了",
+    "点击了",
+  ],
+  Array [
+    "oc.base.条件内容",
+    "条件内容",
+  ],
+  Array [
+    "oc.base.占位内容",
+    "占位内容",
+  ],
+  Array [
+    "oc.base.结算单类型",
+    "结算单类型",
+  ],
+  Array [
+    "oc.base.组件节点位文本",
+    "组件节点位文本",
+  ],
+  Array [
+    "oc.base.组件节点动态文本",
+    "组件节点动态文本",
+  ],
+  Array [
+    "oc.base.组件节点模板文本",
+    "组件节点模板文本",
+  ],
+]
+`;
+
+exports[`i8n 类组件有手动 1`] = `
+"\\"use strict\\";
+
+var _interopRequireDefault = require(\\"babel-plugin-i18n-chinese/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault\\");
+
+var _react = _interopRequireDefault(require(\\"react\\"));
+
+var _intl = _interopRequireDefault(require(\\"utils/intl\\"));
+
+var _jsxFileName = \\"/path/to/classComponentWithManual.tsx\\";
+
+class DetailDrawer extends _react.default.Component {
+  constructor(...args) {
+    super(...args);
+    this.unitId = '';
+  }
+
+  handleCancel() {
+    const str =
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.方法内文本').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '方法内文本');
+
+    console.log(str);
+    console.log(_intl.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.code1').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '方法内调用文本'));
+  }
+
+  render() {
+    const str =
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.渲染方法内文本').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '渲染方法内文本');
+
+    console.log(str);
+    console.log(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.渲染方法内文本').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '渲染方法内文本'));
+
+    const tip =
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.变量文本').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '变量文本'); // @ts-ignore
+
+
+    return /*#__PURE__*/_react.default.createElement(Drawer, {
+      title: _intl.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.组件属性文本1').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      \\"组件属性文本1\\"),
+      desc: _intl.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.code2').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      '组件动态属性文本'),
+      tip: tip,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24,
+        columnNumber: 7
+      }
+    }, /*#__PURE__*/_react.default.createElement(Form, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29,
+        columnNumber: 9
+      }
+    }, /*#__PURE__*/_react.default.createElement(Row, {
+      style: {
+        flex: 'auto'
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 30,
+        columnNumber: 11
+      }
+    }, /*#__PURE__*/_react.default.createElement(Col, {
+      span: 24,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 31,
+        columnNumber: 13
+      }
+    }, /*#__PURE__*/_react.default.createElement(Form.Item, Object.assign({}, fromLayOut, {
+      label: _intl.default.get(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      'oc.base.结算单类型').d(
+      /**___-@upman.babel-plugin-i18n-chinese-___**/
+      \\"结算单类型\\"),
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 32,
+        columnNumber: 15
+      }
+    }))))), /*#__PURE__*/_react.default.createElement(Button, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 40,
+        columnNumber: 9
+      }
+    },
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    _intl.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.组件节点位文本').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    \\"组件节点位文本\\")), /*#__PURE__*/_react.default.createElement(Button, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 43,
+        columnNumber: 9
+      }
+    }, _intl.default.get(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    'oc.base.code3').d(
+    /**___-@upman.babel-plugin-i18n-chinese-___**/
+    '组件动态子节点文本')));
+  }
+
+}"
+`;
+
+exports[`i8n 类组件有手动 2`] = `
+Array [
+  Array [
+    "oc.base.方法内文本",
+    "方法内文本",
+  ],
+  Array [
+    "oc.base.code1",
+    "方法内调用文本",
+  ],
+  Array [
+    "oc.base.渲染方法内文本",
+    "渲染方法内文本",
+  ],
+  Array [
+    "oc.base.变量文本",
+    "变量文本",
+  ],
+  Array [
+    "oc.base.组件属性文本1",
+    "组件属性文本1",
+  ],
+  Array [
+    "oc.base.code2",
+    "组件动态属性文本",
+  ],
+  Array [
+    "oc.base.结算单类型",
+    "结算单类型",
+  ],
+  Array [
+    "oc.base.组件节点位文本",
+    "组件节点位文本",
+  ],
+  Array [
+    "oc.base.code3",
+    "组件动态子节点文本",
+  ],
+]
+`;
